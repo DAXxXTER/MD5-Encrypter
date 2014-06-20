@@ -1,0 +1,38 @@
+#!/usr/bin/perl
+system ( "cls" );
+$i = 1;
+
+print <<EOF; {
+
+-----------------------------------------
+| DAXxXTER MD5 Encrypter    v2.0        | trimakasih kepada tuhan yesus kristus
+| ceded by : rio suyanto                |     karna memberikan saya hikmat
+| blog     : rio-suyanto.blogspot.com   |        kekuatan dan kesehatan
+-----------------------------------------      Semoga ini dapat membantu.
+EOF
+     use Digest::MD5 qw( md5_hex );
+     my $md5x;
+     print "\n                     Teks : ";
+     $md5x = <STDIN>;
+	 print " \n";
+     chomp($md5x);
+     print "                     MD5  : ", md5_hex("$md5x"), "\n\n";
+     } 
+
+
+$i = 1;
+while ($i < 1210){
+{
+     use Digest::MD5 qw( md5_hex );
+     my $md5x;
+     print "\n                     Teks : ";
+     $md5x = <STDIN>;
+	 print " \n";
+     chomp($md5x);
+     print "                     MD5  : ", md5_hex("$md5x"), "\n\n";
+     } 
+} continue
+
+{
+$i++;
+}
